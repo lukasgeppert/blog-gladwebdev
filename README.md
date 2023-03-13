@@ -1,27 +1,37 @@
-# Next.js + Tailwind CSS Example
+# blog-gladwebdev
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+![blog-gladwebdev](https://i.ibb.co/nsdxGJD/blog-gladwebdev.png)
 
-## Deploy your own
+Blog-gladwebdev is a NextJS 13 blog inspired by what I learned from the previous blog tutorial by Sonny Sangha. It is made using the latest version of Next13 including the expiremental appDir feature.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## What are the features of blog-gladwebdev
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+Determined to create a blog using NextJS with the ability to display a code block, I searched for more inspiration on how to implement markdown-to-jsx. I researched different approaches and watched multiple tutorials on the topic. Eventually, I came across the idea of creating a static website with a static markdown file, which proved to be the easiest way to achieve my goal. By using a static file, I was able to avoid some of the type errors that can arise when working with dynamic content, and I gained a better understanding of how TypeScript interfaces work.
 
-## How to use
+## What went well
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+Developing this application was an excellent opportunity for me to gain valuable experience coding with NextJS and TypeScript. Throughout the development process, I had to constantly check for type errors that arises which strengthens my understanding of typescript. Overall, I was happy with the progress I made and as a result, I successfully launched my blogging platform, which now hosts various tech-related articles and tutorials.
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Future improvements
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+I would like to implement several additional features in this project, including the ability to filter blog posts based on user search parameters and syntax highlighting for code blocks.
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+### Liked this repository?
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Please don't forget to leave a ⭐🙏🏻!
+
+## Run this app on your local machine
+
+In order to run this application on your local machine, you can run the following commands on the terminal:
+
+### `yarn`
+
+Installs the required package dependencies
+
+### `yarn dev`
+
+Runs the client in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
